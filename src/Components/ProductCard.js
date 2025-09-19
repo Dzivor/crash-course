@@ -10,7 +10,14 @@ export function ProductCard() {
     price: 999,
   };
   return (
-    <article>
+    <article
+      style={{
+        border: "1PX solid white",
+        borderRadius: "8px",
+        padding: "16px",
+        textAlign: "center",
+      }}
+    >
       <h2>{product.title}</h2>
       <img
         src={product.imageSrc}
